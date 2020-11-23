@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0.75rem 0;
+}
+small{
+    display: block;
+    font-size: 1rem;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.sign {
+    padding: 0.5rem 0.5rem;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.btn {
+    color: rgb(255, 111, 117, 100%);
+    font-size: 14px;
+    display: inline-block;
+    background-color: rgb(255, 92, 90, 16%);
+    border: 2px solid rgb(255, 111, 117, 100%);
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    
+}
+/* end*/
+
+body {
+    width: 100%;
+    background-position: top -225px left -160px;
+    background-repeat: no-repeat;
+    background-image: url("/img/logo_xam.png"), url("/img/BGR1.png"), url("/img/luoi.png");
+    background-size: 620px,  1920px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    position: relative; 
+}
+
+.ss {
+    max-width: 100%;
+    height: 100%;
+}
+.menu {
+        
+        display: flex;
+        color: #fff;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 85%;
+        padding: 20px 40px 10px 0px;
+        
+}
+
+.menu  ul { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu  ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 1rem;
+    font-size: 15px;
+    position: relative;
+    opacity: 0.5;
+    
+  
+}
+.menu .logo img{
+    width: 50%;
+    opacity: 1;
+}
+.menu ul li a.active {
+    opacity: 1;
+}
+
+.active::after {
+position: absolute;
+content: '';
+bottom: 0px;
+left: 33%;
+width: 33%;
+border-bottom: 2px solid #FF4452;
+}
+
+.menu  ul li a:hover {
+    opacity: 1;
+    border: 2px solid rgb(144, 142, 146) ;
+    border-radius:  10px ;
+    background-color: rosybrown;
+}
+
+
+/* end menu*/
+
+
+.container {
+    display: flex;
+    height: 435px;
+}
+.container .logo {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding-top: 29%;
+    font-size: 23px;
+}
+.container .logo a .fa {
+    padding: 15px;
+    color: salmon;
+  
+
+}
+
+/* end */
+
+
+.container .text {
+    width: 30%;
+    padding-top: 10%;
+    padding-left: 25px;
+    font-size: 25px;
+    text-align: left;
+    position: relative;
+}
+.container .text .heading img {
+    position: absolute;
+    padding-left: 13px;
+    padding-top: 2px;
+    left: 140px;
+}
+
+.container .doremon {
+    width: 55%;
+    text-align: right;
+    padding: 50px 200px 5px 5px;
+    background-repeat: no-repeat;
+    background-image: url("Group.png");
+    background-position: top -50px left -50px;
+    
+}
+.container .doremon img{
+    width: 40%;
+  
+}
+
+/*end */
+
+/* bottom */
+
+.bottom {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+}
+.bottom .bottom1 {
+    width: 70%;
+    display: flex;
+    position: absolute;
+    padding-top: 60px;
+}
+
+.bottom .bottom1 .center{
+
+    background-color: white;
+    width: 80%;
+    border: none;
+    display: flex;
+    padding: 30px;
+    text-align: left;
+    font-size: 14px;
+   
+}
+
+
+.bottom .bottom1 .center .center-left{
+    position: relative;
+    margin: 0px 25px 0px 160px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.bottom .bottom1 .center .center-center{
+    position: relative;
+    border-right: black;
+    margin: 0px 25px 0px 25px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom .bottom1 .center .center-right{
+    position: relative;
+    margin: 0px 25px 0px 25px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.bottom .bottom1  .center-start{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(255, 92, 99, 100%);
+    border-top-right-radius: 10px;
+    color: white;
+
+}
+
+
+
+.bottom .bottom1 .center-left::after {
+    position: absolute;
+    content: '';
+    right: -25px;
+    top: 33%;
+    height: 33%;
+    border-right: 2px solid #D8D8D8;
+
+}
+.bottom .bottom1 .center-center::after {
+    position: absolute;
+    content: '';
+    right: -25px;
+    top: 33%;
+    height: 33%;
+    border-right: 2px solid #D8D8D8;
+}
+
+
+.color1 {
+    color: #9B9B9B;
+}
+.color2 {
+    font-weight: bold;
+}
+.Start {
+    color: white;
+}
+
+
+.bottom .bottom2 {
+    font-size: 20px;
+    right: 55px;
+    bottom: -135px;
+    position: absolute;
+    transform: rotate(270deg);
+    color: white;
+}
+.bottom .bottom2 img {
+    padding: 5px;
+
+}
+
+
+/* */
+/*
+ body {
+    background-position: top -285px left -275px;
+    background-repeat: no-repeat;
+    background-image: url("Path.png"), url("background.png");
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    position: relative; 
+}
+.container {
+   
+    max-width: 100%;
+ 
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.session1 {
+  position: relative;
+
+ }
+
+.session2 {
+    position: ;
+
+    border: none;
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    padding: 1rem;
+    width: 80%;
+    
+}
+.session3
+{
+    
+    transform: rotate(-90deg);
+    
+}
+.verticalLine {
+    border-left: thick solid #ff0000;
+  }
+
+
+.container  ul { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.container  ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+  
+}
+
+.container  ul li a:hover {
+    border-radius: 5px;
+} */
